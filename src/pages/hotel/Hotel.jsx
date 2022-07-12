@@ -40,6 +40,12 @@ const Hotel = () => {
             <FontAwesomeIcon icon={faLocationDot} />
             <span>Elton St 125 New york</span>
           </div>
+          <span className="hotelDistance">
+            Excellent location – 500m from center
+          </span>
+          <span className="hotelPriceHighlight">
+            Book a stay over $114 at this property and get a free airport taxi
+          </span>
           <div className="hotelImages">
             {photos.map((photo, i) => (
               <div className='hotelImgWrapper' key={i}>
